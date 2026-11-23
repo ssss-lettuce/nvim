@@ -1,0 +1,21 @@
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.signcolumn = "yes"
+vim.o.wrap = false
+vim.o.cursorcolumn = false
+vim.o.cursorline = true
+vim.o.ignorecase = true
+vim.o.smartindent = true
+vim.o.termguicolors = true
+vim.o.undofile = true
+vim.o.number = true
+vim.o.clipboard = "unnamedplus"
+vim.o.relativenumber = true
+vim.o.expandtab = true
+vim.o.autoindent = true
+vim.o.scrolloff = 24
+vim.g.mapleader = " "
+
+vim.opt.completeopt = { "menu", "menuone", "popup", "noinsert" }
+vim.opt.complete = { ".,w,b", "o" }
+vim.opt.autocomplete = true
